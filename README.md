@@ -22,3 +22,16 @@ Traditional RAG models rely solely on pre-stored document retrieval, which can s
 4. **Final Response Generation**:
    - The retrieved document context and web search data are combined.
    - The LLM generates a refined and contextually accurate response.
+
+## Running the Streamlit App
+```bash
+streamlit run app.py
+```
+The app will be accessible at http://localhost:8501.
+
+## Results
+- Accurate Document Retrieval: Retrieves and ranks relevant document sections.
+- Query Optimization: Enhances query quality for improved web search.
+- Refined Responses: Combines document-based and web-fetched data to generate high-quality answers.
+## Conclusion
+This project advances RAG-based retrieval by integrating query correction and web search to improve information accuracy. The system ensures that users receive the most relevant and well-formed answers, making it highly effective for document-based QA and knowledge retrieval tasks.
