@@ -1,5 +1,4 @@
-# Corrective Retrieval-Augmented Generation (RAG) using Gemini 1.5 Flash
-
+# Corrective Retrieval-Augmented Generation (RAG)
 ## Project Overview
 This project implements a Agentic Corrective Retrieval-Augmented Generation (RAG) system using Gemini 1.5 Flash. It retrieves context from stored documents in ChromaDB and, if needed, refines the query for web search to ensure accurate responses. The system is deployed using Streamlit for an interactive user experience.
 
